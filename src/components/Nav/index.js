@@ -1,23 +1,23 @@
 import React from 'react';
 
 
-export default function Nav() {
+export default function Nav({ currentPage, handlePageChange }) {
 return(
     <header>
     <div className="bg-dark text-light">
-        <a className="text-center nav-link text-light display-6" href="#">Airborne-Dev</a>
-        <ul className="nav nav-fill justify-content-center">
+        <p className="text-center nav-link text-light display-6" >Eric Bates</p>
+        <ul className="nav nav-fill justify-content-center text-light">
           <li className="nav-item">
-            <a className="nav-link active text-light lead" href="#">About</a>
+            <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active lead' : 'nav-link lead'}>About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-light lead" href="#">Portfolio</a>
+            <a  href="#Portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active lead' : 'nav-link lead'}>Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-light lead" href="#">Contact</a>
+            <a href="#Contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active lead' : 'nav-link lead'}>Contact</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-light lead" href="#">Resume</a>
+            <a href="#Resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active lead' : 'nav-link lead'}>Resume</a>
           </li>
         </ul>
       </div>

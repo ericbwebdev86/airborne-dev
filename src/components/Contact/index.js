@@ -14,23 +14,29 @@ function handleChange(e) {
         if(!isValid) {
             setErrorMessage('Your Email is Invalid!');
         } else {
-            if(!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`)
-            } else {
                 setErrorMessage('')
-            }
+            
+        }
+    } else {
+        if(!e.target.value.length) {
+            setErrorMessage(`${e.target.name} is required`)
+        } else {
+            setErrorMessage('');
         }
     }
 
     if(!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
+        setFormState({...formState, [e.target.name]: e.target.value });
+        console.log('Handle Form', formState);
     }
     
 }
 function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState)
-}
+    if (!errorMessage) {
+        console.log('Form Submitted', formState);
+    }
+};
     return(
         <div className="about-img">
     <div className="about-container container"> 
@@ -39,17 +45,22 @@ function handleSubmit(e) {
             <form className="mx-5 mb-5 text-start" onSubmit={handleSubmit}>
                 
                 <div className="mb-3 ">
-                    <label for="nameInput" className="form-label text-start">Name</label>
-                    <input type="name" name="name" className="form-control" id="nameInput" defaultValue={formState.name} placeholder="Arthas Menethil" onChange={handleChange}/>
+                    <label htmlFor="name" className="form-label text-start">Your Name</label>
+                    <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange}/>
                   </div>
                 <div className="mb-3">
-                    <label for="emailInput" className="form-label">Email address</label>
-                    <input type="email" name="email" className="form-control" id="emailInput" defaultValue={formState.email} placeholder="arthas.menethil@lordaeron.com"/>
+                    <label htmlFor="email"  className="form-label">Email address</label>
+                    <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
                   </div>
                   <div className="mb-3">
-                    <label for="textAreaInput" className="form-label">Your Message</label>
-                    <textarea name="message" className="form-control" id="textAreaInput" rows="3" defaultValue={formState.message} placeholder="I would like to hire you..."></textarea>
+                    <label htmlFor="message" className="form-label">Your Message</label>
+                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} className="form-control"></textarea>
                   </div>
+                  {errorMessage && (
+          <div>
+            <p className="text-warning">{errorMessage}</p>
+          </div>
+        )}
                   <button className="btn btn-success">Submit</button>
             </form>
         </div>
