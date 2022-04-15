@@ -40,7 +40,7 @@ function handleSubmit(e) {
     return(
         <div className="about-img">
     <div className="about-container container"> 
-        <div className="border border-dark border-2 rounded-3 container bg-dark text-light col-6">
+        <div className="border border-dark border-2 rounded-3 container bg-dark text-light col-12 col-lg-6">
         <h2 className="mt-2 text-center">Contact Me</h2>
             <form className="mx-5 mb-5 text-start" onSubmit={handleSubmit}>
                 

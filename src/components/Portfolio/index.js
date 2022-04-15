@@ -33,7 +33,7 @@ export default function Portfolio() {
                         <div className="card mt-2 mb-2 card-width" >
                         <img src="./assets/images/code-quiz.JPG" className="card-img-top" alt="screeshot of code-quiz"/>
                         <div className="card-body">
-                          <h5 className="card-title">Code Quiz</h5>
+                          <h5 className="card-title">code-quiz</h5>
                           <p className="card-text">Front-end project. Uses HTML, CSS, and JavaScript, specifically dom manipulation and local storage.</p>
                           <a href="https://github.com/ericbwebdev86/code-quiz" className="btn btn-success me-2">Github Repo</a>
                               <a href="https://ericbwebdev86.github.io/code-quiz/" className="btn btn-success">Deployed App</a>
