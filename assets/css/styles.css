@@ -1,0 +1,30 @@
+.about-img {
+    background-image: url("../images/fayetteville-81136.jpg");
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+.about-container {
+    padding-top: 150px;
+}
+.about-bg {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.card-width{
+    width: 18rem;
+}
+.link-hover {
+    color:white;
+    transition-duration:0.5s;
+    transition-delay: 0.25s;
+}
+.link-hover:hover {
+    color: green;
+}
+.active-hover {
+    color:green;
+    transition-duration:0.5s;
+    transition-delay: 0.25s;
+}
+.active-hover:hover {
+    color:white;
+}
