@@ -3,9 +3,6 @@ import React from 'react';
 
 export default function Nav({ currentPage, handlePageChange }) {
 return(
-    <header>
-    <div className="bg-dark text-light">
-        <p className="text-center nav-link text-light display-6" >Eric Bates</p>
         <ul className="nav nav-fill justify-content-center text-light">
           <li className="nav-item">
             <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active text-success text-decoration-underline fw-bold lead' : 'nav-link lead text-light'}>About</a>
@@ -20,7 +17,5 @@ return(
             <a href="#Resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active lead text-success text-decoration-underline fw-bold' : 'nav-link lead text-light'}>Resume</a>
           </li>
         </ul>
-      </div>
-</header>
 )
 };

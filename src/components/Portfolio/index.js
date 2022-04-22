@@ -1,6 +1,9 @@
 import React from 'react';
 
+
+
 export default function Portfolio() {
+  
     return(
         <div className="about-img">
         <div className=" about-container"> 
@@ -16,7 +19,8 @@ export default function Portfolio() {
                               <a href="https://github.com/ericbwebdev86/3-guys-pizza-n-pies" className="btn me-2 btn-success">Github Repo</a>
                               <a href="https://agile-bastion-05286.herokuapp.com/" className="btn btn-success">Deployed App</a>
                             </div>
-                          </div>
+    </div>
+                          
                     </div>
                     <div className="col">
                         <div className="card mt-2 mb-2 card-width" >
