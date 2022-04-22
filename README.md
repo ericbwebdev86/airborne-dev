@@ -31,13 +31,24 @@ Navigate to the root directory in the terminal and initialize the project with *
 ## Use
 Navigate to the root directory in the terminal and type **npm run** to run the app.
 
+Checkout the deployed app here: https://ericbwebdev86.github.io/airborne-dev/
 
 
 ## Tests
 There are no formal tests for this project
 
 ## Media
-coming soon
+### Home/About Page
+![image](https://user-images.githubusercontent.com/87142377/164744092-86f4d588-c7a8-4c35-83ba-ba05caf362e0.png)
+
+### Portfolio Page
+![image](https://user-images.githubusercontent.com/87142377/164744248-c0f7c00b-86c4-461a-b151-84311573e50a.png)
+
+### Contact Page
+![image](https://user-images.githubusercontent.com/87142377/164744372-9553b5a2-8f3c-42d3-a849-b568de4a16e5.png)
+
+### Resume Page
+![image](https://user-images.githubusercontent.com/87142377/164744743-f533eaae-4c95-48df-b0d3-ce044e145ace.png)
 
 The following link is to this project's github repository
 https://github.com/ericbwebdev86/airborne-dev
