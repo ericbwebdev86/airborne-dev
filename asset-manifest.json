@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/airborne-dev/static/css/main.073c9b0a.css",
-    "main.js": "/airborne-dev/static/js/main.37648777.js",
+    "main.js": "/airborne-dev/static/js/main.c49f779c.js",
     "static/js/787.46fa29d9.chunk.js": "/airborne-dev/static/js/787.46fa29d9.chunk.js",
     "index.html": "/airborne-dev/index.html",
     "main.073c9b0a.css.map": "/airborne-dev/static/css/main.073c9b0a.css.map",
-    "main.37648777.js.map": "/airborne-dev/static/js/main.37648777.js.map",
+    "main.c49f779c.js.map": "/airborne-dev/static/js/main.c49f779c.js.map",
     "787.46fa29d9.chunk.js.map": "/airborne-dev/static/js/787.46fa29d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.37648777.js"
+    "static/js/main.c49f779c.js"
   ]
 }
