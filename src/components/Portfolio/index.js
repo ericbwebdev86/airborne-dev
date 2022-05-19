@@ -11,36 +11,49 @@ export default function Portfolio() {
                 <h2 className="text-center text-light display-4 mt-2 mb-5">My Portfolio</h2>
                 <div className="row">
                 <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
-                        <img src="./assets/images/my-outdoor-space.JPG" className="card-img-top" alt="screenshot of memo-saver"/>
+                        <div className="card mt-2 mb-2" >
+                        <img src="./assets/images/my-outdoor-space.JPG" className="card-img-top" alt="screenshot of my-outdoor-space"/>
                         <div className="card-body">
                           <h5 className="card-title">My Outdoor Space</h5>
-                          <p className="card-text">MERN Stack, JWT, Bootstrap, GraphQL, ApolloServer, Concurrently</p>
-                          <a href="https://github.com/p-fassbender/my-outdoor-space" className="btn btn-success me-2">Github Repo</a>
-                              <a href="https://my-outdoor-space.herokuapp.com/" className="btn btn-success">Deployed App</a>
+                          <p className="card-text">MERN Stack group project, forum site JWT, Bootstrap, GraphQL, ApolloServer, Concurrently</p>
+                          <a href="https://github.com/p-fassbender/my-outdoor-space" className="btn btn-success me-2"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="https://my-outdoor-space.herokuapp.com/" className="btn btn-success">
+                              <i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                         </div>
                       </div>  
                     </div>
                     <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
+                        <div className="card mt-2 mb-2" >
                             <img src="./assets/images/3-guys.JPG" className="card-img-top" alt="screenshot of 3-guys-pizza-n-pies website"/>
                             <div className="card-body">
                               <h5 className="card-title">3-guys-pizza-n-pies</h5>
                               <p className="card-text">Fullstack group project: eCommerce site built with mysql, handlebars, express, and node.</p>
-                              <a href="https://github.com/ericbwebdev86/3-guys-pizza-n-pies" className="btn me-2 btn-success">Github Repo</a>
-                              <a href="https://agile-bastion-05286.herokuapp.com/" className="btn btn-success">Deployed App</a>
+                              <a href="https://github.com/ericbwebdev86/3-guys-pizza-n-pies" className="btn me-2 btn-success"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="https://agile-bastion-05286.herokuapp.com/" className="btn btn-success"><i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                             </div>
     </div>
                           
                     </div>
                     <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
+                        <div className="card mt-2 mb-2" >
                         <img src="./assets/images/erics-tech-talk.JPG" className="card-img-top" alt="screenshot of erics-tech-talk"/>
                         <div className="card-body">
                           <h5 className="card-title">erics-tech-talk</h5>
                           <p className="card-text">This is a fullstack blog site: built with mysql, handlebars, express, and node.</p>
-                          <a href="https://github.com/ericbwebdev86/erics-tech-talk" className="btn btn-success me-2">Github Repo</a>
-                              <a href="https://enigmatic-tor-99381.herokuapp.com/" className="btn btn-success">Deployed App</a>
+                          <a href="https://github.com/ericbwebdev86/erics-tech-talk" className="btn btn-success me-2"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="https://enigmatic-tor-99381.herokuapp.com/" className="btn btn-success"><i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                         </div>
                       </div>  
                     </div>
@@ -48,35 +61,47 @@ export default function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
+                        <div className="card mt-2 mb-2" >
                             <img src="./assets/images/work-day-scheduler.JPG" className="card-img-top" alt="screenshot of work-day-scheduler"/>
                             <div className="card-body">
                               <h5 className="card-title">work-day-scheduler</h5>
                               <p className="card-text">Front-end project. Uses HTML, CSS, JavaScript, Bootstrap, jQuery, Momnentjs, and FontAwesome.</p>
-                              <a href="https://github.com/ericbwebdev86/work-day-scheduler" className="btn btn-success">Github Repo</a>
-                              <a href="https://ericbwebdev86.github.io/work-day-scheduler/" className="btn btn-success">Deployed App</a>
+                              <a href="https://github.com/ericbwebdev86/work-day-scheduler" className="btn btn-success me-2"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="https://ericbwebdev86.github.io/work-day-scheduler/" className="btn btn-success"><i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                             </div>
                           </div>
                     </div>
                     <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
+                        <div className="card mt-2 mb-2" >
                         <img src="./assets/images/elegant-art.JPG" className="card-img-top" alt="screenshot of elegant-art"/>
                         <div className="card-body">
                           <h5 className="card-title">elegant-art</h5>
-                          <p className="card-text">Front-end project. This a website made for family. HTML, CSS, JavaScript, Bootstrap. Unfinished.</p>
-                          <a href="https://github.com/ericbwebdev86/elegant-art" className="btn btn-success me-2">Github Repo</a>
-                              <a href="http://elegantarte.com/" className="btn btn-success">Deployed App</a>
+                          <p className="card-text">Front-end project. This a website made for a relative. HTML, CSS, JavaScript, Bootstrap. Unfinished.</p>
+                          <a href="https://github.com/ericbwebdev86/elegant-art" className="btn btn-success me-2"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="http://elegantarte.com/" className="btn btn-success"><i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                         </div>
                       </div>  
                     </div>
                     <div className="col">
-                        <div className="card mt-2 mb-2 card-width" >
+                        <div className="card mt-2 mb-2" >
                         <img src="./assets/images/code-quiz.JPG" className="card-img-top" alt="screenshot of code-quiz"/>
                         <div className="card-body">
                           <h5 className="card-title">code-quiz</h5>
                           <p className="card-text">Front-end project. Uses HTML, CSS, and JavaScript, specifically dom manipulation and local storage.</p>
-                          <a href="https://github.com/ericbwebdev86/code-quiz" className="btn btn-success me-2">Github Repo</a>
-                              <a href="https://ericbwebdev86.github.io/code-quiz/" className="btn btn-success">Deployed App</a>
+                          <a href="https://github.com/ericbwebdev86/code-quiz" className="btn btn-success me-2"><i class="fa-brands fa-github"></i>
+                            <p>Github Repo</p></a>
+                              <a href="https://ericbwebdev86.github.io/code-quiz/" className="btn btn-success"><i class="fa-solid fa-sitemap"></i>
+                              <p>
+                              Deployed App
+                              </p></a>
                         </div>
                       </div>  
                     </div>
