@@ -30,7 +30,7 @@ export default function Portfolio() {
                             <img src="./assets/images/3-guys.JPG" className="card-img-top" alt="screenshot of 3-guys-pizza-n-pies website"/>
                             <div className="card-body">
                               <h5 className="card-title">3-guys-pizza-n-pies</h5>
-                              <p className="card-text">Fullstack group project: eCommerce site built with SQL/Sequelize, handlebars, express, bcrypt and node.</p>
+                              <p className="card-text">Fullstack group project: eCommerce site built with SQL/Sequelize, handlebars, ExpressJS, bcrypt and NodeJS.</p>
                               <a href="https://github.com/ericbwebdev86/3-guys-pizza-n-pies" className="btn me-2 btn-success mb-2">
                             <p>Github Repo</p></a>
                               <a href="https://agile-bastion-05286.herokuapp.com/" className="btn btn-success mb-2 me-2">
@@ -66,7 +66,7 @@ export default function Portfolio() {
                         <img src="./assets/images/erics-tech-talk.JPG" className="card-img-top" alt="screenshot of erics-tech-talk"/>
                         <div className="card-body">
                           <h5 className="card-title">erics-tech-talk</h5>
-                          <p className="card-text">This is a fullstack blog site: built with SQL/Sequelize, handlebars, express, and node.</p>
+                          <p className="card-text">This is a fullstack blog site: built with SQL/Sequelize, handlebars, ExpressJS, and NodeJS.</p>
                           <a href="https://github.com/ericbwebdev86/erics-tech-talk" className="btn btn-success me-2 mb-2">
                             <p>Github Repo</p></a>
                               <a href="https://enigmatic-tor-99381.herokuapp.com/" className="btn btn-success me-2 mb-2">

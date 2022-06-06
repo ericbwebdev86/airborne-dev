@@ -8,7 +8,7 @@ export default function Resume() {
             
                 <h2 className="mt-2 mb-2 text-center">Resume</h2>
                 
-                <p className="text-center lead">Click <a className="text-decoration-none text-success fw-bold text-decoration-underline" href="./assets/docs/EricBates-Resume-Oct20.docx" download>here</a> for a copy of my resume.</p>
+                <p className="text-center lead">Click <a className="text-decoration-none text-success fw-bold text-decoration-underline" href="./assets/docs/EricBates-Resume-Jun22.docx" download>here</a> for a copy of my resume.</p>
                 <div className="row mb-2">
                     <div className="col">
                         <h3>Front-End Proficiencies</h3>
