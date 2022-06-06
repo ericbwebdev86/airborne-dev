@@ -47,7 +47,7 @@ export default function Portfolio() {
                         <img src="./assets/images/elegant-art.JPG" className="card-img-top" alt="screenshot of elegant-art"/>
                         <div className="card-body">
                           <h5 className="card-title">elegant-art</h5>
-                          <p className="card-text">Front-end project. This a website made for a relative's stained glass business. HTML, CSS, JavaScript, Bootstrap. Unfinished.</p>
+                          <p className="card-text">Front-end project. Made for a relative's art business. HTML, CSS, JavaScript, Bootstrap. Unfinished.</p>
                           <a href="https://github.com/ericbwebdev86/elegant-art" className="btn btn-success me-2 mb-2">
                             <p>Github Repo</p></a>
                               <a href="http://elegantarte.com/" className="btn btn-success mb-2 me-2">
@@ -96,7 +96,7 @@ export default function Portfolio() {
                         <img src="./assets/images/code-quiz.JPG" className="card-img-top" alt="screenshot of code-quiz"/>
                         <div className="card-body">
                           <h5 className="card-title">code-quiz</h5>
-                          <p className="card-text">Front-end project. Uses HTML, CSS, and JavaScript. This project focuses on dom manipulation and local storage.</p>
+                          <p className="card-text">Front-end project. Uses HTML, CSS, JavaScript, dom manipulation and local storage.</p>
                           <a href="https://github.com/ericbwebdev86/code-quiz" className="btn btn-success me-2 mb-2">
                             <p>Github Repo</p></a>
                               <a href="https://ericbwebdev86.github.io/code-quiz/" className="btn btn-success mb-2 me-2">

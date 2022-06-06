@@ -9,10 +9,10 @@ export default function Footer() {
                 <p className="nav-link text-light" >&copy;2022 Made with &#9829; by Eric Bates</p>
             </li>
           <li className="nav-item">
-            <a className="nav-link link text-light" href="https://github.com/ericbwebdev86"><i class="fa-brands fa-github-square"></i></a>
+            <a className="nav-link link text-light text-decoration-underline" href="https://github.com/ericbwebdev86">Github</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link link text-light" href="https://www.linkedin.com/in/eric-b-247604108/"><i class="fa-brands fa-linkedin"></i></a>
+            <a className="nav-link link text-light text-decoration-underline" href="https://www.linkedin.com/in/eric-b-247604108/">LinkedIn</a>
           </li>
         </ul>
       </div>

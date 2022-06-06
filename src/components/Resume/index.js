@@ -7,8 +7,8 @@ export default function Resume() {
         <div className="border border-dark border-2 rounded-3 container bg-dark text-light col-12 col-lg-6">
             
                 <h2 className="mt-2 mb-2 text-center">Resume</h2>
-                <a className="text-decoration-none text-success fw-bold text-decoration-underline" href="./assets/docs/EricBates-Resume-Oct20.docx" download><i class="fa-solid fa-file"></i></a>
-                <p className="text-center lead">Click the icon above for a copy of my resume.</p>
+                
+                <p className="text-center lead">Click <a className="text-decoration-none text-success fw-bold text-decoration-underline" href="./assets/docs/EricBates-Resume-Oct20.docx" download>here</a> for a copy of my resume.</p>
                 <div className="row mb-2">
                     <div className="col">
                         <h3>Front-End Proficiencies</h3>
