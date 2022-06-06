@@ -2,6 +2,9 @@
     background-image: url("../images/fayetteville-81136.jpg");
     background-repeat: no-repeat;
     min-height: 1000px;
+    background-size: cover;
+    background-position:center;
+    display: flex;
 }
 .about-container {
     padding-top: 150px;
@@ -10,11 +13,11 @@
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-.active-hover {
-    color:green !important;
+.link-hover {
+    color:white !important;
     transition-duration:0.5s !important;
     transition-delay: 0.25s !important;
 }
-.active-hover:hover {
-    color:white !important;
+.link-hover:hover {
+    color:green !important;
 }

@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/airborne-dev/static/css/main.073c9b0a.css",
-    "main.js": "/airborne-dev/static/js/main.c49f779c.js",
+    "main.css": "/airborne-dev/static/css/main.60b4b967.css",
+    "main.js": "/airborne-dev/static/js/main.75dc671f.js",
     "static/js/787.46fa29d9.chunk.js": "/airborne-dev/static/js/787.46fa29d9.chunk.js",
+    "static/media/fayetteville-81136.jpg": "/airborne-dev/static/media/fayetteville-81136.f6ad626794eab64695b9.jpg",
     "index.html": "/airborne-dev/index.html",
-    "main.073c9b0a.css.map": "/airborne-dev/static/css/main.073c9b0a.css.map",
-    "main.c49f779c.js.map": "/airborne-dev/static/js/main.c49f779c.js.map",
+    "main.60b4b967.css.map": "/airborne-dev/static/css/main.60b4b967.css.map",
+    "main.75dc671f.js.map": "/airborne-dev/static/js/main.75dc671f.js.map",
     "787.46fa29d9.chunk.js.map": "/airborne-dev/static/js/787.46fa29d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c49f779c.js"
+    "static/css/main.60b4b967.css",
+    "static/js/main.75dc671f.js"
   ]
 }
