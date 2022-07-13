@@ -1,8 +1,7 @@
 # airborne-dev ![Github license](https://img.shields.io/badge/license-MIT-green.svg)
 
-The aim of this project is to create a social network API.
-
 ## Table of Contents
+[Description](#Description) <br>
 [Technologies Used](#technologies-used) <br>
 [Installation](#installation) <br>
 [Usage](#use) <br>
@@ -11,7 +10,8 @@ The aim of this project is to create a social network API.
 [Contact and Questions](#questions) <br>
 [License](#license) <br>
 
-  
+## Description
+Portfolio site made with ReactJS!
 
 ## Technologies Used
 * javascript
@@ -26,12 +26,11 @@ The aim of this project is to create a social network API.
 Navigate to the root directory in the terminal and initialize the project with **npm install** to install all the proper node module dependencies.
 
 
-
-## Use
+## Installation
 Navigate to the root directory in the terminal and type **npm run** to run the app.
 
+## Use
 Checkout the deployed app here: https://ericbwebdev86.github.io/airborne-dev/
-
 
 ## Tests
 There are no formal tests for this project
