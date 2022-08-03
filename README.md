@@ -11,7 +11,8 @@
 [License](#license) <br>
 
 ## Description
-Portfolio site made with ReactJS!
+
+This is my professional portfolio made using ReactJS. Though rough, this will get me my first development postion!
 
 ## Technologies Used
 * javascript
